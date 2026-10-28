@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixtures &amp; Results — Shah Alam City FC</title>
+    <meta name="description" content="Upcoming fixtures and recent results for Shah Alam City FC.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="logo.jpg">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+    <div class="container">
+        <a href="index.html" class="nav-brand">
+            <img src="logo.jpg" alt="Shah Alam City FC" class="nav-logo">
+            <span>SHAH ALAM CITY <span class="club-short">FC</span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="club.html">The Club</a></li>
+            <li><a href="squad.html">Squad</a></li>
+            <li><a href="matches.html" class="active">Matches</a></li>
+            <li><a href="academy.html">Academy</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="index.html#partner" class="nav-cta">Partner</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- ===== PAGE HERO ===== -->
+<header class="page-hero">
+    <div class="container">
+        <span class="eyebrow">Match Centre</span>
+        <h1>Fixtures <span class="gold">&amp;</span> Results</h1>
+        <p>Every battle ahead and every result behind us. The Wolves never stop hunting.</p>
+    </div>
+</header>
+
+<!-- ===== FIXTURES & RESULTS ===== -->
+<section class="section section-alt">
+    <div class="container">
+        <div class="fx-grid">
+            <div class="fx-col">
+                <h3>Upcoming Fixtures</h3>
+                <div id="fixturesList"><!-- injected --></div>
+            </div>
+            <div class="fx-col">
+                <h3>Recent Results</h3>
+                <div id="resultsList"><!-- injected --></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img src="logo.jpg" alt="Shah Alam City FC">
+                <div class="fname">SHAH ALAM CITY FC</div>
+                <div class="fnick">The Wolves</div>
+                <p>One City. One Pack. Representing Shah Alam, Selangor since 2018.</p>
+                <div class="footer-social">
+                    <a href="https://facebook.com/ShahAlamCityFootballClub" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+                    <a href="https://instagram.com/shahalamcityfc" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+                    <a href="https://tiktok.com/@shahalamcityfootballclub" target="_blank" rel="noopener" aria-label="TikTok">TT</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Club</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="club.html">Inside The Club</a></li>
+                    <li><a href="academy.html">Academy</a></li>
+                    <li><a href="squad.html">Squad</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow</h4>
+                <ul>
+                    <li><a href="matches.html">Fixtures</a></li>
+                    <li><a href="matches.html">Results</a></li>
+                    <li><a href="club.html#lens">Gallery</a></li>
+                    <li><a href="store.html">Store</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:info@shahalamcityfc.com">info@shahalamcityfc.com</a></li>
+                    <li><a href="#">Shah Alam, Selangor</a></li>
+                    <li><a href="#">Reg: C-SGR-00022</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Shah Alam City Football Club. All rights reserved.</span>
+            <span>One City. <span class="gold">One Pack.</span></span>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
